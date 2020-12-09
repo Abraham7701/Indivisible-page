@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #F4F4F4;
+}
+
+figure {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    width: 1605px;
+    margin: 0 auto;
+    margin-top: 55px;
+    height: 900px;
+}
+
+.wrapper {
+    width: 50%;
+    text-align: center;
+}
+
+.homepage-imageContainer {
+    overflow: hidden;
+}
+
+.homepage-image {
+    width: 802px;
+    position: relative;
+    top: -35px;
+}
