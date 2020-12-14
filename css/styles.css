@@ -39,23 +39,41 @@ figure {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     opacity: .7;
-    font-size: 40px;
-    letter-spacing: 6px;
-    margin-bottom: 70px;
+    font-size: 38px;
+    letter-spacing: 9px;
+    margin-top: 75px;
+    margin-bottom: 65px;
     font-weight: bold;
 }
 
 .header p {
     text-transform: uppercase;
-    line-height: 1;
+    line-height: .8;
     letter-spacing: 5px;
     color: #333;
 }
 
 .header {
-    margin-bottom: 100px;
+    margin-bottom: 65px;
+}
+
+.menu {
+    position: relative;
+    left: -20px;
 }
 
 ol {
     list-style: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 15px 64px;
+    border-radius: 7px;
+    display: block;
+    margin: 30px 80px;
+    text-transform: uppercase;
+    color: #555;
+    letter-spacing: 3px;
 }
