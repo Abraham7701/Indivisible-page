@@ -14,7 +14,7 @@ figure {
     width: 1605px;
     margin: 0 auto;
     margin-top: 55px;
-    height: 900px;
+    height: 930px;
 }
 
 .wrapper {
@@ -41,7 +41,6 @@ figure {
     opacity: .7;
     font-size: 38px;
     letter-spacing: 9px;
-    margin-top: 30px;
     margin-bottom: 65px;
     font-weight: bold;
 }
@@ -76,6 +75,12 @@ ol {
     text-transform: uppercase;
     color: #555;
     letter-spacing: 3px;
+    transition: .2s;
+}
+
+.menu-link:hover {
+    color: #49c8ff;
+    border-color: #49c8ff;
 }
 
 .social-menu {
@@ -87,6 +92,15 @@ ol {
     color: #444;
 }
 
+.social-menu a {
+    color: #444;
+    transition: .2s;
+}
+
+.social-menu a:hover {
+    color: #49c8ff;
+}
+
 .fab {
     margin: 0 15px;
 }
@@ -94,3 +108,13 @@ ol {
 .fas {
     margin: 0 10px;
 }
+
+.footer {
+    margin: 60px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #bbb;
+    letter-spacing: 3.5px;
+    font-size: 15.2px;
+}
+
