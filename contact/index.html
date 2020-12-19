@@ -26,18 +26,19 @@
                         <div class="area">
                             <div class="half-area">
                                 <label for="name">Name</label>
-                                <input type="text" name="name" id="name">    
+                                <input type="text" name="name" id="name" required>    
                             </div>
                             <div class="half-area">
                                 <label for="email">Email</label>
-                                <input type="text" name="email" id="email">
+                                <input type="email" name="email" id="email" required>
                             </div>
                         </div>
                         <div class="text-area">
                             <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="5"></textarea>
+                            <textarea name="message" id="message" rows="5" required></textarea>
                         </div>
-                        <button>Send Message</button>
+                        <button class="form-button">Send Message</button>
+                        
                     </form>
                 </main>
             </div>

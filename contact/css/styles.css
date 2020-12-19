@@ -24,9 +24,9 @@ figure {
     /* justify-content: center; */
 }
 
-.inner-wrapper {
-    padding-top: 70px;
-}
+/* .inner-wrapper {
+
+} */
 
 .homepage-imageContainer {
     overflow: hidden;
@@ -35,7 +35,7 @@ figure {
 .homepage-image {
     width: 802px;
     position: relative;
-    top: -35px;
+    top: -75px;
     margin-right: 55px;
 }
 
@@ -46,7 +46,7 @@ figure {
     color: #333;
     padding: 15px 20px 15px 15px;
     position: relative;
-    bottom: 140px;
+    bottom: 100px;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 12px;
@@ -72,7 +72,7 @@ figure {
 }
 
 .header {
-    margin-bottom: 65px;
+    margin-bottom: 90px;
 }
 
 .header-title {
@@ -86,7 +86,7 @@ figure {
 }
 
 .form-menu {
-    width: 650px;
+    width: 750px;
 }
 
 .area {
@@ -94,16 +94,76 @@ figure {
 }
 
 .half-area {
-    margin-right: 15px;
-    width: 50%;
+    margin-right: 30px;
 }
 
 .half-area label {
     display: block;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    color: #555;
+}
+
+.half-area input {
+    padding: 10px 20px;
+    width: 330px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #444;
+}
+
+.half-area input:focus,
+.text-area textarea:focus {
+    border: 2px solid #49c8ff;
 }
 
 .text-area label {
     display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    color: #555;
+}
+
+.text-area textarea {
+    width: 690px;
+    padding: 20px;
+    height: 190px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+    background-color: #f7f7f7;
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #444;
+}
+
+.form-button {
+    background-color: transparent;
+    color: #555;
+    padding: 15px 25px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    text-decoration: none;
+    transition: .2s;
+    outline: none;
+}
+
+.form-button:hover {
+    color: #49c8ff;
+    border-color: #49c8ff;
 }
 
 .footer {
